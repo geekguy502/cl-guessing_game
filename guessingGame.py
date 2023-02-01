@@ -29,10 +29,10 @@ def main():
   
     answer = input('Do you want to get lottery numbers (1) or play the game (2) or quit (Q)?')
 
-    if numbers == '1':
+    if answer == '1':
         numbers = lotto_numbers()
         print(numbers)
-    elif numbers == '2':
+    elif answer == '2':
         guessing_game()
     else:
         print('Toodles!')
